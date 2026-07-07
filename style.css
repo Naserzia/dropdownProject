@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dropdown-container {
+  position: relative;
+  cursor: pointer;
+}
+/* .dropdown {
+  position: absolute;
+} */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+  border: 1px solid limegreen;
+  padding: 8px 12px;
+  border-radius: 3px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+  display: block;
+}
